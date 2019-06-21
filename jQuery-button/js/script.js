@@ -20,5 +20,10 @@ $(document).ready(function () {
         $(this).addClass('black');
     }).mouseout(function () {
         $(this).removeClass('black');
-    });;
+    });
+   // $('.theButton').on('click', function () {
+    //    let color = $(this).css('backgroundColor');
+     //   $('.superButton').css('color', color)
+   // });
+    
 });
